@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Galeria XD</title>
+      <link rel="stylesheet" href="./Galeria.css">
+</head>
+<body>
+      <header class="dropdown">
+            <button class="dropbtn">Menú</button>
+            <div class="dropdown-content">
+                <a href="#" onclick="mostrarImagenes('carros')">Opción 1</a>
+                <a href="#" onclick="mostrarImagenes('bosques')">Opción 2</a>
+                <a href="#">Opción 3</a>
+            </div>
+            <button class="un-random" type="reset">↻</button>
+      </header>
+      <div class="galeria">
+            <img src="https://images.pexels.com/photos/7555440/pexels-photo-7555440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="imagen1" class="thumbnail carros">
+            <img src="https://images.pexels.com/photos/17115145/pexels-photo-17115145/free-photo-of-a-road-in-mountains.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="imagen2" class="thumbnail bosques">
+            <img src="https://images.pexels.com/photos/10547152/pexels-photo-10547152.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="imagen3" class="thumbnail carros">
+            <img src="https://images.pexels.com/photos/17565900/pexels-photo-17565900/free-photo-of-edificio-rio-reflejo-fachada.jpeg" alt="imagen4" class="thumbnail carros">
+            <img src="https://images.pexels.com/photos/7453715/pexels-photo-7453715.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="imagen5" class="thumbnail carros">
+            <img src="https://images.pexels.com/photos/18248176/pexels-photo-18248176/free-photo-of-flores-animal-hierba-prado.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="imagen6" class="thumbnail carros">
+      </div>
+      <div class="lightbox">
+            <span class="close">&times;</span>
+            <img class="lightbox-image" src="" alt="imagen ampliada">
+      </div>
+</body>
+<script src="/Galeria.js"></script>
+</html>
+
